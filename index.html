@@ -32,26 +32,36 @@
                     <h1 id="city"></h1>
                     <h2 id="date">Friday, 19:11</h2>
 
-                </p> <span id="description"></span> 
-                </br> 
-                <span id="details">
+                    </p> <span id="description"></span>
+                
+                    <span id="details">
                         Humidity: <strong id="humid"></strong>
                         Wind: <strong id="wind"></strong>
-                </span>
+                    </span>
                 </div>
 
                 <div class="weather-details" id="weather-details">
                     <div id="icon">
                         <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
-                        class="weather-icon" id="weather-icon"/>
+                            class="weather-icon" id="weather-icon" />
                     </div>
                     <span class="temp" id="temp"></span><span class="units">ºC</span>
 
                 </div>
-                <div class="forecast">
-                    
+            </div>
+            <div class="forecast">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="forecast-day">
+                            dia
+                        </div>
+                        <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+                            class="forecast-icon" id="forecast-icon" />
+                        <div class="forecast-temperature">
+                            <span class="forecast-temp-max">10º</span> <span class="forecast-temp-min">5º</span>
+                        </div>
+                    </div>
                 </div>
-
             </div>
 
             <footer>This project was coded by
@@ -64,7 +74,7 @@
     </div>
 
     <script src="src/index.js"></script>
-    
+
 </body>
 
 </html>
