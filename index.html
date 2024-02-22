@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="src/style.css" />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>App project</title>
+</head>
+
+<body>
+    <div class="container" style="width: 500px">
+        <header>
+            <form class="search-form" id="search-form">
+                <div class="row">
+                    <div class="col-9">
+                        <input type="search" placeholder="Type a city..." required autofocus="on" autocomplete="off"
+                            id="city-input" class="form-control shadow-sm" />
+                    </div>
+                    <div class="col">
+                        <input type="submit" value="Search" class="button" />
+                    </div>
+                </div>
+            </form>
+        </header>
+        <main>
+            <div class="weather-data">
+                <div>
+                    <h1 id="city"></h1>
+                    <h2 id="date">Friday, 19:11</h2>
+
+                </p> <span id="description"></span> 
+                </br> 
+                <span id="details">
+                        Humidity: <strong id="humid"></strong>
+                        Wind: <strong id="wind"></strong>
+                </span>
+                </div>
+
+                <div class="weather-details" id="weather-details">
+                    <div id="icon">
+                        <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+                        class="weather-icon" id="weather-icon"/>
+                    </div>
+                    <span class="temp" id="temp"></span><span class="units">ºC</span>
+
+                </div>
+                <div class="forecast">
+                    
+                </div>
+
+            </div>
+
+            <footer>This project was coded by
+                <a href="https://github.com/bialoreti" target="_blank">Beatriz Loreti</a>, is <a
+                    href="https://github.com/bialoreti/SCP-week7" target="_blank">open-sourced on Github</a> and hosted
+                on
+                <a href="https://biaweatherapp.netlify.app/" target="_blank">Netlify</a>
+            </footer>
+
+    </div>
+
+    <script src="src/index.js"></script>
+    
+</body>
+
+</html>
