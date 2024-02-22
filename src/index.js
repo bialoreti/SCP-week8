@@ -80,7 +80,7 @@ days.forEach(function (day) {
     forecastHtml + `
 <div class="forecast">
   <div class="forecast-day">${day}</div>
-  <div class="forecast-icon">☁️</div>
+  <div class="forecast-icon">☀️</div>
   <div class="forecast-temperature">
     <div class="forecast-temp-max">10º</div> 
     <div class="forecast-temp-min">5º</div>
@@ -88,6 +88,7 @@ days.forEach(function (day) {
 </div>
  `;
 });
+
 let forecastElement = document.querySelector("#forecast");
 forecastElement.innerHTML = forecastHtml;
 }
