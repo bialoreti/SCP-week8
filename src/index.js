@@ -71,6 +71,26 @@ function showTemperature(response) {
 
 }
 
+function displayForecast() {
+let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+let forecastHtml ="";
+
+days.forEach(function (day) {
+    forecastHtml =
+    forecastHtml + `
+<div class="forecast">
+  <div class="forecast-day">${day}</div>
+  <div class="forecast-icon">☁️</div>
+  <div class="forecast-temperature">
+    <div class="forecast-temp-max">10º</div> 
+    <div class="forecast-temp-min">5º</div>
+  </div>
+</div>
+ `;
+});
+let forecastElement = document.querySelector("#forecast");
+forecastElement.innerHTML = forecastHtml;
+}
+
 callApi('Lisbon');
-
-
+displayForecast();
