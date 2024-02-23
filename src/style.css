@@ -16,6 +16,7 @@ body {
 .search-form {
   padding: 15px;
   margin: 20px auto;
+  text-align: center;
   border-radius: 10px;
   max-width: 600px;
   background-color: transparent;
@@ -47,6 +48,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+main {
+  padding: 30px 0;
+}
+
 h1 {
   color: white;
   font-size: 28px;
@@ -63,12 +68,11 @@ h2 {
 .weather-data {
   display: flex;
   justify-content: space-between;
-  margin-left: 2%;
+  margin-left: 20px;
 }
 
 .weather-details {
   display: flex;
-  margin-right: 2%;
 }
 .temp {
   color: white;
@@ -80,6 +84,7 @@ h2 {
 .units {
   color: white;
   font-weight: bold;
+  margin-right: 20px;
 }
 
 .weather-icon {
@@ -117,9 +122,11 @@ h2 {
 }
 
 .forecast {
-  margin-top: 30px;
   display: inline-block;
-  margin-left: 30px;
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+  text-align: center;
 }
 
 .forecast-day {
@@ -131,8 +138,10 @@ h2 {
 }
 
 .forecast-icon {
-  font-size: 22px;
-  text-align: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  display: block;
 }
 
 .forecast-temperature {
