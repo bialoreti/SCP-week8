@@ -122,26 +122,25 @@ h2 {
 }
 
 .forecast {
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
   margin-top: 20px;
-  margin-left: 16px;
-  margin-right: 16px;
-  text-align: center;
 }
 
 .forecast-day {
   color: white;
   text-align: center;
-  font-size: 12px;
-  margin-bottom: 10px;
+  font-size: 13px;
   line-height: 20px;
+  margin-bottom: 10px;
 }
 
 .forecast-icon {
-  width: 40px;
-  height: 40px;
+  width: 42px;
+  height: 42px;
   margin: 0 auto;
   display: block;
+  text-align: center;
 }
 
 .forecast-temperature {
@@ -168,7 +167,7 @@ footer {
   color: white;
   font-size: 10px;
   text-align: center;
-  padding: 50px 0;
+  padding: 20px;
 }
 a {
   color: #6577d3;
