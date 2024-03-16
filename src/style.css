@@ -10,16 +10,16 @@ body {
   padding-top: 10px;
   box-shadow: 5px 5px 5px #25275930;
   margin: 50px auto;
-  max-width: 600px;
+  max-width: 500px;
 }
 
-.search-form {
+#search-form {
   padding: 15px;
   margin: 20px auto;
   text-align: center;
   border-radius: 10px;
-  max-width: 600px;
   background-color: transparent;
+  
 }
 
 #city-input {
@@ -39,7 +39,6 @@ body {
   color: #a0b9de;
   border-radius: 20px;
   border-color: #a0b9de;
-  margin-top: 0;
   box-shadow: 5px 5px 5px 0 #25275914;
   border-style: solid;
   text-align: center;
