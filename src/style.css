@@ -3,14 +3,14 @@ body {
   background: linear-gradient(to right, #a3e0f3, #c3cee4, #dfd2c9);
 }
 
-.container {
+.container-fluid {
   border-radius: 20px;
-  width: 600px;
   background-color: rgba(0, 0, 0, 0.04);
   padding-bottom: 5px;
   padding-top: 10px;
   box-shadow: 5px 5px 5px #25275930;
   margin: 50px auto;
+  max-width: 600px;
 }
 
 .search-form {
